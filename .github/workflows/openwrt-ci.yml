@@ -212,8 +212,8 @@ jobs:
           CONFIG_PACKAGE_luci-app-qos=y #流量服务质量(QoS)流控
           CONFIG_PACKAGE_luci-app-radicale=y #CalDAV/CardDAV同步工具
           CONFIG_PACKAGE_luci-app-ramfree=y #释放内存
-          # CONFIG_PACKAGE_luci-app-rp-pppoe-server=y #Roaring Penguin PPPoE Server 服务器
-          # CONFIG_PACKAGE_luci-app-samba=y #网络共享(Samba)
+          CONFIG_PACKAGE_luci-app-rp-pppoe-server=y #Roaring Penguin PPPoE Server 服务器
+          CONFIG_PACKAGE_luci-app-samba=y #网络共享(Samba)
           # CONFIG_PACKAGE_luci-app-samba4=y #网络共享(Samba4)
           CONFIG_PACKAGE_luci-app-sfe=y #Turbo ACC网络加速(开启Fast Path转发加速)
           CONFIG_PACKAGE_luci-app-shairplay=y #支持AirPlay功能
