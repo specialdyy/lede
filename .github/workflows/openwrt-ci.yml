@@ -117,8 +117,8 @@ jobs:
 
           # 设置固件大小:
           cat >> .config <<EOF
-          CONFIG_TARGET_KERNEL_PARTSIZE=200
-          CONFIG_TARGET_ROOTFS_PARTSIZE=1024
+          CONFIG_TARGET_KERNEL_PARTSIZE=400
+          CONFIG_TARGET_ROOTFS_PARTSIZE=2048
           EOF
           
           # 固件压缩:
